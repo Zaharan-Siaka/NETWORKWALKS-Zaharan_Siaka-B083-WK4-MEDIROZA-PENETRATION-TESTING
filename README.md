@@ -157,8 +157,8 @@ All three passwords were successfully recovered, and each original PDF was opene
 | Report | Hash Extraction Method | Password Recovery Method | Result |
 |---|---|---|---|
 | Report 1 | pdf2john | John the Ripper | Successful |
-| Report 2 | Online hash extraction service | Johnny/John the Ripper | Successful |
-| Report 3 | Online hash extraction service | Johnny/John the Ripper | Successful |
+| Report 2 | Networkwalks hash calculator | Johnny/John the Ripper | Successful |
+| Report 3 | Networkwalks hash calculator | Johnny/John the Ripper | Successful |
 
 #### 3.2.2 Password Recovery Evidence
 
