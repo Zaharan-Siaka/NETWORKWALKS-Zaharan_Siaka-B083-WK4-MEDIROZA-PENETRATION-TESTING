@@ -91,7 +91,7 @@ Nmap identified ports 80 and 443 as open.
 
 **Supporting evidence – Gobuster reconnaissance:**
 
-[![Gobuster reconnaissance](recon/gobuster%20recon.png)](recon/gobuster%20recon.png)
+[![Gobuster reconnaissance](gobuster%20recon.png)](gobuster%20recon.png)
 
 #### 3.1.2 Directory Enumeration
 
@@ -101,7 +101,7 @@ During enumeration, an `/old/` directory was identified. Further manual inspecti
 
 **Supporting evidence – Exposed old directory:**
 
-[![Exposed old directory](recon/old%20directory.png)](recon/old%20directory.png)
+[![Exposed old directory](old%20directory.png)](old%20directory.png)
 
 #### 3.1.3 SQL Injection and Authentication Bypass
 
@@ -164,15 +164,15 @@ All three passwords were successfully recovered, and each original PDF was opene
 
 **First PDF report:**
 
-[![First PDF password recovery](recon/1st%20cracked%20password.png)](recon/1st%20cracked%20password.png)
+[![First PDF password recovery](1st%20cracked%20password.png)](1st%20cracked%20password.png)
 
 **Second PDF report:**
 
-[![Second PDF password recovery](recon/2nd%20cracked%20password.png)](recon/2nd%20cracked%20password.png)
+[![Second PDF password recovery](2nd%20cracked%20password.png)](2nd%20cracked%20password.png)
 
 **Third PDF report:**
 
-[![Third PDF password recovery](recon/3rd%20cracked%20password.png)](recon/3rd%20cracked%20password.png)
+[![Third PDF password recovery](3rd%20cracked%20password.png)](3rd%20cracked%20password.png)
 
 The successful recovery of all three passwords demonstrated that the password protection used on the reports was insufficient to prevent access through password guessing.
 
@@ -225,11 +225,11 @@ The metadata value `j.malik` was recorded as an author field; it does not indepe
 
 **Supporting evidence – PDF metadata investigation:**
 
-[![PDF metadata investigation](recon/deep%20recon%20into%20pdf3.png)](recon/deep%20recon%20into%20pdf3.png)
+[![PDF metadata investigation](deep%20recon%20into%20pdf3.png)](deep%20recon%20into%20pdf3.png)
 
 **Additional PDF investigation:**
 
-[![Additional PDF investigation](recon/deep%20recon%20into%20pdf%201%262.png)](recon/deep%20recon%20into%20pdf%201%262.png)
+[![Additional PDF investigation](deep%20recon%20into%20pdf%201%262.png)](deep%20recon%20into%20pdf%201%262.png)
 
 #### 3.3.3 Employee Salary Information
 
@@ -295,7 +295,7 @@ The shareholder percentages totalled 100%.
 
 **Supporting evidence – Shareholder information:**
 
-[![Shareholder information](recon/shareholders.png)](recon/shareholders.png)
+[![Shareholder information](shareholders.png)](shareholders.png)
 
 #### 3.3.5 Impact of the Exposed Database
 
